@@ -10,6 +10,7 @@ export class ProductCategoryComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  	
   }
-
+  selected = 'option2';
 }

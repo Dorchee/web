@@ -118,3 +118,6 @@
 }
 
 @include foundation-everything(true);
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Roboto', sans-serif; }
