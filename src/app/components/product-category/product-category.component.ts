@@ -13,4 +13,8 @@ export class ProductCategoryComponent implements OnInit {
   	
   }
   selected = 'option2';
+  checked = false;
+  indeterminate = false;
+  labelPosition = 'after';
+  disabled = false;
 }
