@@ -20,6 +20,7 @@ import { LoginComponent } from './components/login/login.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { CheckoutComponent } from './components/checkout/checkout.component';
 import { ConfirmOrderComponent } from './components/confirm-order/confirm-order.component';
+import { PaymentFooterComponent } from './components/payment-footer/payment-footer.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { ConfirmOrderComponent } from './components/confirm-order/confirm-order.
     LoginComponent,
     SignUpComponent,
     CheckoutComponent,
-    ConfirmOrderComponent
+    ConfirmOrderComponent,
+    PaymentFooterComponent
   ],
   imports: [
     BrowserModule,
