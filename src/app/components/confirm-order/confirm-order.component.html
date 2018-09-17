@@ -1,6 +1,6 @@
 <app-header></app-header>
 <div class="grid-x grid-padding-x">
-	<div class="small-12 medium-7 cell">
+	<div class="small-12 medium-8 cell">
 		<div>Delivery Address</div>
 		<div>
 			<mat-radio-group>
@@ -34,6 +34,9 @@
 			  	</div>
 		  	</div>
 			</mat-radio-group>
+		</div>
+		<div class="clearfix">
+			<button class="button float-right" data-open="addressUpdate">+ ADD ADDRESS</button>
 		</div>
 		<div class="reveal" id="addressUpdate" data-reveal>
 		  <h3 class="">ADDRESS</h3>
@@ -103,6 +106,85 @@
 		  </button>
 	  </div>
 	</div>
-	<div class="small-12 medium-5 cell">
+	<div class="small-12 medium-4 cell">
+		<div>Delivery Details</div>
+		<div>
+			<div class="grid-x">
+				<div class="medium-2 cell">
+					<img src="../assets/images/homepage-images/pic4.png" alt="Bought Product">
+				</div>
+				<div class="medium-10 cell">
+					<div>Double Layered Printed Shirt</div>
+					<div class="grid-x">
+						<div class="medium-6 cell">
+							Quantity
+						</div>
+						<div class="medium-6 cell">
+							1
+						</div>
+					</div>
+					<div class="grid-x">
+						<div class="medium-6 cell">
+							Size
+						</div>
+						<div class="medium-6 cell">
+							L
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="grid-x">
+				<div class="medium-2 cell">
+					<img src="../assets/images/homepage-images/pic4.png" alt="Bought Product">
+				</div>
+				<div class="medium-10 cell">
+					<div>Double Layered Printed Shirt</div>
+					<div class="grid-x">
+						<div class="medium-6 cell">
+							Quantity
+						</div>
+						<div class="medium-6 cell">
+							1
+						</div>
+					</div>
+					<div class="grid-x">
+						<div class="medium-6 cell">
+							Size
+						</div>
+						<div class="medium-6 cell">
+							L
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div>ORDER SUMMARY</div>
+		<div>
+			<div class="clearfix">
+				<span class="float-left">Sub Total</span>
+				<span class="float-right">Rs. 3000</span>
+			</div>
+			<div class="clearfix">
+				<span class="float-left">Discount</span>
+				<span class="float-right">- Rs. 1000</span>
+			</div>
+			<div class="clearfix">
+				<span class="float-left">Shipping Charges</span>
+				<span class="float-right">+ Rs. 90</span>
+			</div>
+			<div class="clearfix">
+				<span class="float-left">Total</span>
+				<span class="float-right">Rs. 2090</span>
+			</div>
+			<div class="clearfix">
+				<span class="float-right">*GST included</span>
+			</div>
+			<div class="text-center">
+				<button class="button">Place Order</button>
+			</div>
+		</div>
 	</div>
 </div>
+<app-payment-footer></app-payment-footer>
