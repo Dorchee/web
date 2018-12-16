@@ -1,13 +1,3 @@
-// Foundation for Sites by ZURB
-// foundation.zurb.com
-// Licensed under MIT Open Source
-
-// sass-lint:disable no-color-literals, no-qualifying-elements
-
-////
-/// @group global
-////
-
 @import '../../../node_modules/foundation-sites/scss/util/util';
 
 /// Font size attribute applied to `<html>` and `<body>`. We use 100% by default so the value is inherited from the user's browser settings.
@@ -25,7 +15,7 @@ $global-lineheight: 1.5 !default;
 /// Colors used for buttons, callouts, links, etc. There must always be a color called `primary`.
 /// @type Map
 $foundation-palette: (
-  primary: #1779ba,
+  primary: #580C07,
   secondary: #767676,
   success: #3adb76,
   warning: #ffae00,
